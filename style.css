@@ -4,6 +4,178 @@
   padding: 0px;
   font-family: "Open Sans", sans-serif;
 }
-#heroImg {
+main {
+  position: relative;
+  background: url(./img/header.png);
+  height: 140vh;
+  background-size: cover;
+}
+.allsec {
+  background: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+  height: 140vh;
+}
+.header {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main header {
+  width: 1080px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo p {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  padding: 8px 14px;
+}
+.headBtn button {
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.headBtn button i {
+  margin-right: 6px;
+}
+/* hero section design */
+.hero {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-sec .left-side {
+  margin-left: 10rem;
+  position: relative;
+}
+.hero-sec .left-side,
+.hero-sec .right-side {
+  width: 20%;
+}
+.middle {
+  width: 57%;
+}
+.left-side ul li {
+  list-style: none;
+}
+.left-side ul li:nth-child(1) {
+  font-size: 1.2rem;
+  font-weight: 700;
+  transform: rotate(90deg);
+  position: absolute;
+  color: white;
+  top: -70px;
+  left: -35px;
+}
+.left-side ul li a {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  color: white;
+}
+#up-txt {
+  color: #fbd784;
+  font-weight: 600;
+  position: relative;
+  left: 60px;
+}
+#up-txt::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: 10px;
+  left: -60px;
+  background: #fbd784;
+}
+.upper h3 {
+  font-size: 3rem;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: white;
+}
+.upper .scroll {
+  border: none;
+  background: transparent;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+}
+.upper .scroll i {
+  font-weight: bold;
+  margin-left: 6px;
+}
+.right-side ul li {
+  list-style: none;
+  color: white;
+  font-weight: 450;
+  margin-top: 10px;
+  position: relative;
+}
+.right-side ul li::before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background-color: #ffffff59;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  transform: rotate(90deg);
+}
+.hero-sec .right-side {
+  position: relative;
+}
+.hr {
+  width: 30px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 17px;
+  left: 35px;
+}
+.lastImg img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  bottom: 0;
+}
+/* section 2 design */
+#hiker {
+  color: #fbd784;
+  font-weight: 600;
+  position: relative;
+}
+#hiker::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: 10px;
+  left: -60px;
+  background: #fbd784;
 }
