@@ -307,3 +307,41 @@ nav ul li a {
   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.03);
   z-index: 1;
 }
+/* footer design */
+footer {
+  background: #0b1d26;
+  width: 100%;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainFoot {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#footerHeading {
+  color: #fbd784;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.footerUl li {
+  list-style: none;
+  margin: 15px 0px;
+}
+.footerUl li a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+.footer-logo h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.foot1 p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
